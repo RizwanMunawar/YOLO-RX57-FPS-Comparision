@@ -1,2 +1,5 @@
-# FPS-Comparision-YOLO-Series
-FPS Comparision with same specification of YOLOX, YOLOR, YOLOv5 and YOLOv7
+### FPS-Comparision-YOLO-Series
+
+- Leading YOLO Series Algorithms FPS Comparision with same specifications.
+- The comparision include, YOLOv7, YOLOv5, YOLOX, YOLO-R
+
