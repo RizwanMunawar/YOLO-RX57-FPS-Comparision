@@ -4,6 +4,5 @@
 - The comparision include, YOLOv7, YOLOv5, YOLOX, YOLO-R
 
 ### Output
-<video width="320" height="240" controls>
-  <source src="/output/FPS COMPARISION YOLOX, YOLOR, YOLOv5, YOLOv7.mp4" type="video/mp4">
-</video>
+https://user-images.githubusercontent.com/62513924/182783948-8e2ddb62-ddf7-4970-9aab-56ce2d45d2ed.mp4
+
