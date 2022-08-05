@@ -24,16 +24,16 @@ https://user-images.githubusercontent.com/62513924/182783948-8e2ddb62-ddf7-4970-
 - Basic usage
 ```
 python3 comparision.py --source "2.mp4" --device 0
-```
+
 or
-```
+
 python3 comparision.py --source "2.mp4" --device cpu
 ```
 ##### The above command will store the output of all detectors in a new folder named results. The results folder will contain output videos for every object detector, FPS will be shown on every video.
 
 ### Custom Weights
 ```
-python3 comparision.py --source "2.mp4" --device 0 --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt --yoloxweights yolox_s.pt --yolov7weights yolov7.pt
+python3 comparision.py --source "2.mp4" --device 0 --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt --yoloxweights yolox_m.pt --yolov7weights yolov7.pt
 ```
 ![Results Folder Look....!](https://user-images.githubusercontent.com/62513924/183150516-664cf061-a0f5-46a8-a4d8-8655eccc6d60.png)
 
@@ -41,5 +41,5 @@ python3 comparision.py --source "2.mp4" --device 0 --yolov5weights yolov5s.pt --
 ### Coming Soon
 - histogram plot for fps comparision every second
 - Merge output video into single video side-by-side
-- 
+
 For more details, you can reach out to me on [Medium](https://chr043416.medium.com/) or can connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadrizwanmunawar/)
