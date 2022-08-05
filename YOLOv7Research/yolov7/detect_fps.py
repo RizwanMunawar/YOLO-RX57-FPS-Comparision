@@ -98,7 +98,9 @@ def detect(save_img=False):
                 p, s, im0, frame = path, '', im0s, getattr(dataset, 'frame', 0)
 
             p = Path(p)  # to Path
-            save_path = str(save_dir / p.name)  # img.jpg
+            save_mod_path  =str(save_dir / str("yolov7-"))
+            save_path = str(save_mod_path+Path(p).name)
+            # save_path = str(save_dir / p.name)  # img.jpg
             txt_path = str(save_dir / 'labels' / p.stem) + ('' if dataset.mode == 'image' else f'_{frame}')  # img.txt
             s += '%gx%g ' % img.shape[2:]  # print string
             gn = torch.tensor(im0.shape)[[1, 0, 1, 0]]  # normalization gain whwh
@@ -134,8 +136,8 @@ def detect(save_img=False):
                 fps_list.append(fps)
                 sum_fps = sum(fps_list)
                 average_fps = sum_fps/len(fps_list)
-                cv2.putText(im0, f'FPS: {int(fps)}', (11, 35), 0, 1, [255, 255, 255], thickness=2, lineType=cv2.LINE_AA)
-                cv2.putText(im0, f'Average FPS: {int(average_fps)}', (11, 65), 0, 1, [255 ,255,255], thickness=2, lineType=cv2.LINE_AA)
+                cv2.putText(im0, f'FPS: {int(fps)}', (11, 100), 0, 1, [255, 0, 0], thickness=2, lineType=cv2.LINE_AA)
+                cv2.putText(im0, f'Average FPS: {int(average_fps)}', (11, 140), 0, 1, [255, 0, 0], thickness=2, lineType=cv2.LINE_AA)
                 cv2.imshow(str(p), im0)
                 cv2.waitKey(1)  # 1 millisecond
 
@@ -147,8 +149,8 @@ def detect(save_img=False):
                 fps_list.append(fps)
                 sum_fps = sum(fps_list)
                 average_fps = sum_fps/len(fps_list)
-                cv2.putText(im0, f'FPS: {int(fps)}', (11, 35), 0, 1, [255, 255, 255], thickness=2, lineType=cv2.LINE_AA)
-                cv2.putText(im0, f'Average FPS: {int(average_fps)}', (11, 65), 0, 1, [255 ,255,255], thickness=2, lineType=cv2.LINE_AA)
+                cv2.putText(im0, f'FPS: {int(fps)}', (11, 100), 0, 1, [255, 0, 0], thickness=2, lineType=cv2.LINE_AA)
+                cv2.putText(im0, f'Average FPS: {int(average_fps)}', (11, 140), 0, 1, [255 ,0,0], thickness=2, lineType=cv2.LINE_AA)
                 
                 if dataset.mode == 'image':
                     cv2.imwrite(save_path, im0)
@@ -193,7 +195,7 @@ if __name__ == '__main__':
     parser.add_argument('--update', action='store_true', help='update all models')
     parser.add_argument('--project', default='runs/detect', help='save results to project/name')
     parser.add_argument('--name', default='exp', help='save results to project/name')
-    parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
+    parser.add_argument('--exist-ok',default=True, action='store_true', help='existing project/name ok, do not increment')
     parser.add_argument('--no-trace', action='store_true', help='don`t trace model')
     opt = parser.parse_args()
     print(opt)
