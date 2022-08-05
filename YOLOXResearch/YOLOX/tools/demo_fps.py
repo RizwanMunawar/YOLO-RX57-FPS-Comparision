@@ -194,9 +194,7 @@ def image_demo(predictor, vis_folder, path, current_time, save_result):
         outputs, img_info = predictor.inference(image_name)
         result_image = predictor.visual(outputs[0], img_info, predictor.confthre)
         if save_result:
-            save_folder = os.path.join(
-                vis_folder, time.strftime("%Y_%m_%d_%H_%M_%S", current_time)
-            )
+            save_folder = os.path.join("output","exp")
             os.makedirs(save_folder, exist_ok=True)
             save_file_name = os.path.join(save_folder, os.path.basename(image_name))
             logger.info("Saving detection result in {}".format(save_file_name))
@@ -217,12 +215,11 @@ def imageflow_demo(predictor, vis_folder, current_time, args):
     height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)  # float
     fps = cap.get(cv2.CAP_PROP_FPS)
     if args.save_result:
-        save_folder = os.path.join(
-            vis_folder, time.strftime("%Y_%m_%d_%H_%M_%S", current_time)
+        save_folder = (os.path.join("output","exp")
         )
         os.makedirs(save_folder, exist_ok=True)
         if args.demo == "video":
-            save_path = os.path.join(save_folder, os.path.basename(args.path))
+            save_path = os.path.join(save_folder, "yolox-"+os.path.basename(args.path))
         else:
             save_path = os.path.join(save_folder, "camera.mp4")
         logger.info(f"video save_path is {save_path}")
@@ -237,8 +234,8 @@ def imageflow_demo(predictor, vis_folder, current_time, args):
         fps_list.append(fps)
         sum_fps = sum(fps_list)
         average_fps = sum_fps/len(fps_list)
-        cv2.putText(frame, f'FPS: {int(fps)}', (11, 35), 0, 1, [255,255,255], thickness=2, lineType=cv2.LINE_AA)
-        cv2.putText(frame, f'Average FPS: {int(average_fps)}', (11, 65), 0, 1, [255,255,255], thickness=2, lineType=cv2.LINE_AA)
+        cv2.putText(frame, f'FPS: {int(fps)}', (11, 100), 0, 1, [255, 0, 0], thickness=2, lineType=cv2.LINE_AA)
+        cv2.putText(frame, f'Average FPS: {int(average_fps)}', (11, 140), 0, 1, [255, 0, 0], thickness=2, lineType=cv2.LINE_AA)
         if ret_val:
             outputs, img_info = predictor.inference(frame)
             result_frame = predictor.visual(outputs[0], img_info, predictor.confthre)
