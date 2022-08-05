@@ -155,15 +155,6 @@ def run(
 
 
     os.chdir(original_file_path)
-    filepaths = "results/"
-    grid = GridspecLayout(1, len(filepaths))
-    for i, filepath in enumerate(filepaths):
-        out = Output()
-        with out:
-            display.display(display.Video(filepath, embed=True))
-        grid[0, i] = out
-
-    grid
     
 #parse basic arguments
 def parse_opt():
