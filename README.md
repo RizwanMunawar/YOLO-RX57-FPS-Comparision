@@ -11,7 +11,8 @@
 - python 3.6/3.7/3.8
 
 ### Results
-<img src= "/assets/results.png" style = "width:640px;height:360px;">
+<img src= "/assets/results.png" style ="width:640px;height:360px;">
+
 ### Start Guide
 
 #### For Ubuntu
