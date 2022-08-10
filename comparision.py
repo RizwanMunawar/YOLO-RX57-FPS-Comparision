@@ -5,10 +5,6 @@ import argparse
 import platform
 from pathlib import Path
 
-from ipywidgets import Output, GridspecLayout
-from IPython import display
-
-
 #run function
 def run(
         yolov5weights='yolov5s.pt',    #yolov5 detection weights
