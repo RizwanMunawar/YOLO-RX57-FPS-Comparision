@@ -55,7 +55,6 @@ python3 comparision.py --source "2.mp4" --device cpu
 ```
 python3 comparision.py --source "2.mp4" --device 0 --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt --yoloxweights yolox_m.pt --yolov7weights yolov7.pt
 ```
-![Results Folder Look....!](https://user-images.githubusercontent.com/62513924/183150516-664cf061-a0f5-46a8-a4d8-8655eccc6d60.png)
 
 #### For Windows 10
 ```
@@ -84,7 +83,6 @@ python3 comparision.py --source "2.mp4" --device cpu
 ```
 python3 comparision.py --source "2.mp4" --device 0 --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt --yoloxweights yolox_m.pt --yolov7weights yolov7.pt
 ```
-![Results Folder Look....!](https://user-images.githubusercontent.com/62513924/183150516-664cf061-a0f5-46a8-a4d8-8655eccc6d60.png)
 
 ### Coming Soon
 - histogram plot for fps comparision every second
