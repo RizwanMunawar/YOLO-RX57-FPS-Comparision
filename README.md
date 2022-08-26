@@ -1,5 +1,10 @@
 # Offical Implementation of Conference Paper Published in 8th International Conference on Signal and Image Processing (SIGPRO 2022). Toronto, Canada
+## Lead Authors
+- Saira Gillani (https://www.linkedin.com/in/saira-gillani/)
+- Muhammad Rizwan Munawar (https://pk.linkedin.com/in/muhammadrizwanmunawar)
+
 ## Object Detection Algorithms YOLO Series [Suppport for Windows & Linux]
+
 
 ### FPS-Comparision-YOLO-Series
 
