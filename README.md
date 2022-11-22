@@ -3,6 +3,7 @@
 - Saira Gillani (https://www.linkedin.com/in/saira-gillani/)
 - Muhammad Rizwan Munawar (https://pk.linkedin.com/in/muhammadrizwanmunawar)
 
+### Conference Paper Link: <a href="https://aircconline.com/csit/papers/vol12/csit121602.pdf">Yolov5, Yolo-x, Yolo-r, Yolov7 Performance Comparison: A Survey</a>
 ## Object Detection Algorithms YOLO Series [Suppport for Windows & Linux]
 
 
