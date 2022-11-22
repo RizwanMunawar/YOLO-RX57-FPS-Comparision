@@ -60,7 +60,9 @@ python3 comparision.py --source "2.mp4" --device cpu
 
 - If you want to use your custom weights, you can use mentioned command below.
 ```
-python3 comparision.py --source "2.mp4" --device 0 --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt --yoloxweights yolox_m.pt --yolov7weights yolov7.pt
+python3 comparision.py --source "2.mp4" --device 0 \
+                       --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt \
+                       --yoloxweights yolox_m.pt --yolov7weights yolov7.pt
 ```
 
 #### For Windows 10
@@ -88,7 +90,9 @@ python3 comparision.py --source "2.mp4" --device cpu
 
 - If you want to use your custom weights, you can use mentioned command below.
 ```
-python3 comparision.py --source "2.mp4" --device 0 --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt --yoloxweights yolox_m.pt --yolov7weights yolov7.pt
+python3 comparision.py --source "2.mp4" --device 0 \
+                      --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt \
+                      --yoloxweights yolox_m.pt --yolov7weights yolov7.pt
 ```
 
 ### Coming Soon
