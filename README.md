@@ -72,7 +72,7 @@ pip install pycocotools-windows
 
 Now you will need to download weights of YOLOR, YOLOv7 and YOLOX and move downloaded weights into respective folders. Mentioned steps below to complete this.
 - Download [yolor_p6.pt](https://github.com/RizwanMunawar/YOLO-RX57-FPS-Comparision/releases/download/v0.1.4-release/yolor_p6.pt) file and move the downloaded file in <b>YOLORResearch/yolor</b> folder
-- Download [yolorv7.pt](https://github.com/RizwanMunawar/YOLO-RX57-FPS-Comparision/releases/download/v0.1.4-release/yolov7.pt) file and move the downloaded file in <b>YOLOv7Research/yolov7</b> folder
+- Download [yolov7.pt](https://github.com/RizwanMunawar/YOLO-RX57-FPS-Comparision/releases/download/v0.1.4-release/yolov7.pt) file and move the downloaded file in <b>YOLOv7Research/yolov7</b> folder
 - Download [yolox_s.pth](https://github.com/RizwanMunawar/YOLO-RX57-FPS-Comparision/releases/download/v0.1.4-release/yolox_s.pth) file and move the downloaded file in <b>YOLOXResearch/YOLOX</b> folder
 
 Now you can run code with mentioned command below.
