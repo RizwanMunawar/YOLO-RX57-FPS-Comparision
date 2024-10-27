@@ -1,17 +1,18 @@
-# Offical Implementation of Conference Paper Published in 8th International Conference on Signal and Image Processing (SIGPRO 2022). Toronto, Canada
-## Lead Authors
-- Saira Gillani (https://www.linkedin.com/in/saira-gillani/)
-- Muhammad Rizwan Munawar (https://pk.linkedin.com/in/muhammadrizwanmunawar)
+# Official Implementation of SIGPRO 2022 Conference Paper  
+*Published in the 8th International Conference on Signal and Image Processing (SIGPRO 2022), Toronto, Canada.*
 
-### Conference Paper Link: <a href="https://aircconline.com/csit/papers/vol12/csit121602.pdf">Yolov5, Yolo-x, Yolo-r, Yolov7 Performance Comparison: A Survey</a>
-## Object Detection Algorithms YOLO Series [Suppport for Windows & Linux]
+## Paper Title
+**[YOLOv5, YOLOX, YOLOR, and YOLOv7 Performance Comparison: A Survey](https://aircconline.com/csit/papers/vol12/csit121602.pdf)**
 
+### Lead Authors
+- [Saira Gillani](https://www.linkedin.com/in/saira-gillani/)
+- [Muhammad Rizwan Munawar](https://pk.linkedin.com/in/muhammadrizwanmunawar)
 
-### FPS-Comparision-YOLO-Series
+## Overview
+This repository provides the official code to compare FPS (frames per second) of various YOLO object detection algorithms (YOLOv5, YOLOX, YOLOR, and YOLOv7) under the same conditions. This comparison includes support for both Windows and Linux environments.
 
-- Leading YOLO Series Algorithms FPS Comparision with same specifications.
-- The comparision include, YOLOv7, YOLOv5, YOLOX, YOLO-R
-
+## FPS Comparison of YOLO Series
+Compare the FPS of leading YOLO series algorithms with identical hardware specifications, enabling a clearer understanding of performance differences across versions.
 
 ### Recommended Envirnoment
 - Operating System : Ubuntu 18/Ubuntu 20/Windows 10
