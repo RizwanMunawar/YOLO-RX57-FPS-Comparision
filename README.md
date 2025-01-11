@@ -107,4 +107,4 @@ python3 comparision.py --source "2.mp4" --device 0 \
 - https://github.com/Megvii-BaseDetection/YOLOX
 - https://github.com/WongKinYiu/yolov7
 
-For more details, you can reach out to me on [Medium](https://chr043416.medium.com/) or can connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadrizwanmunawar/)
+For more details, you can reach out to me on [Medium](https://muhammadrizwanmunawar.medium.com/) or can connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadrizwanmunawar/)
