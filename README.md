@@ -49,18 +49,18 @@ cd ..
 cd ..
 ```
 - Now you can run code with mentioned command below.
-```
+```python
 python3 comparision.py --source "2.mp4" --device 0
-
+```
 or
-
+```python
 python3 comparision.py --source "2.mp4" --device cpu
 ```
 - In above command, source will be the path of your video/image on, which you want to calculate FPS. 
 ##### The above command will store the output of all detectors in a new folder named results. The results folder will contain output videos for every object detector, FPS will be shown on every video.
 
 - If you want to use your custom weights, you can use mentioned command below.
-```
+```python
 python3 comparision.py --source "2.mp4" --device 0 \
                        --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt \
                        --yoloxweights yolox_m.pt --yolov7weights yolov7.pt
@@ -79,18 +79,19 @@ Now you will need to download weights of YOLOR, YOLOv7 and YOLOX and move downlo
 - Download [yolox_s.pth](https://github.com/RizwanMunawar/YOLO-RX57-FPS-Comparision/releases/download/v0.1.4-release/yolox_s.pth) file and move the downloaded file in <b>YOLOXResearch/YOLOX</b> folder
 
 Now you can run code with mentioned command below.
-```
+```python
 python3 comparision.py --source "2.mp4" --device 0
-
+```
 or
-
+```python
 python3 comparision.py --source "2.mp4" --device cpu
 ```
-- In above command, source will be the path of your video/image on which you want to calculate FPS. 
+- In above command, source will be the path of your video/image on which you want to calculate FPS.
+   
 ##### The above command will store the output of all detectors in a new folder named results. The results folder will contain output videos for every object detector, FPS will be shown on every video.
 
 - If you want to use your custom weights, you can use mentioned command below.
-```
+```python
 python3 comparision.py --source "2.mp4" --device 0 \
                       --yolov5weights yolov5s.pt --yolorweights yolor_p6.pt \
                       --yoloxweights yolox_m.pt --yolov7weights yolov7.pt
