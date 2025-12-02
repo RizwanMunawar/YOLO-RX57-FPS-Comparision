@@ -2,6 +2,9 @@
 
 *Published in the 8th International Conference on Signal and Image Processing (SIGPRO 2022), Toronto, Canada.*
 
+[![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.5121/csit.2022.121602)](https://csitcp.com/paper/12/1216csit02.pdf)
+
+
 ## Paper title
 
 **[YOLOv5, YOLOX, YOLOR, and YOLOv7 Performance Comparison: A Survey](https://aircconline.com/csit/papers/vol12/csit121602.pdf)**
